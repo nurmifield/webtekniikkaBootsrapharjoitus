@@ -1,0 +1,38 @@
+html{
+    background-color: rgb(105, 206, 127);
+    padding: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+body{
+    min-height:100%;  margin:0;
+    background-color: rgb();
+}
+
+body{
+    background-color: rgb(105, 206, 127);
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Solway', serif;
+    
+}
+
+
+
+article{
+    padding: 20px;
+    margin: 0px auto;
+    gap: 5px;
+    background-color: rgb(105, 206, 127);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Merriweather', serif;
+}
+
+
+
+
+
+
