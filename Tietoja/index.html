@@ -43,11 +43,52 @@
 
 <article>
     <h3>Tietoja</h3>
-    <div class="card">
-        <div class="card-body">
-          Rudi on 3-vuotias porokoira. Hän tykkää repiä leluja ja syödä luita.
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Tietoja koirasta
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
+          <div class="accordion-body">
+            <strong>Rudi on 3-vuotias lapinporokoira.</strong> Rudi on alunperin Oulusta kotoisin Havukorven kennelistä. Pentueeseen syntyi aikoinaan 4 pentua, joista Rudi oli yksi. Rudi rakastaa käydä pitkillä lenkeillä, syödä luita ja peuhata lumessa.
+          </div>
         </div>
       </div>
+
+      <head>
+        <style>
+     
+            
+            #image {
+                display: none;
+            }
+        </style>
+    </head>
+     
+
+      <img id="image" src=
+      "/kuvat/IMG-3961.jpg"
+                  alt="GFG image" />
+          </div>
+       
+          <button type="button" class="btn btn-outline-primary"
+              onclick="show()" id="btnID">
+              Näytä kuva
+          </button>
+       
+          <script>
+              function show() {
+       
+                  
+                  document.getElementById('image')
+                          .style.display = "block";
+       
+                  document.getElementById('btnID')
+                          .style.display = "none";
+              }
+          </script> 
 </article>
 
   </body>
